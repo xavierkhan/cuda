@@ -1,0 +1,135 @@
+
+@media only screen and (max-width: 1200px){
+	.row{
+		margin: 0 15px;
+	}
+}
+@media only screen and (max-width: 1024px){
+	header{
+		height: 70vh;
+	}
+	.hero-text-box{
+		width: 90%;
+	}
+	.main-nav{
+		display: none;
+	}
+	.mobile-menu span{
+		display: block;
+	}
+	.mobile-menu span:hover{
+		cursor: pointer;
+	}
+
+	html{
+		font-size: 57.5%;
+	}
+	h1{
+		/*width: 90rem;*/
+		font-size: 4rem; 
+	}
+	.client-photo{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.client-review{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.contact-section form{
+		width: 100%;
+		margin-left:0;
+	}
+}
+@media only screen and (max-width: 980px){
+	header{
+		height: 65vh;
+	}
+	.span_1_of_4{
+		width: 49.2%;
+	}
+	.span_1_of_4:nth-child(3){
+		margin-left: 0;
+
+	}
+	html{
+		font-size: 62.5%;
+	}
+	.hero-text-box h1{
+		/*width: 80rem;*/
+		/*transform: translateX(20%);*/
+		font-size: 35px;
+		margin: 0;
+	}
+	.hero-text-box{
+		margin-top: 10rem;
+	}
+}
+@media only screen and (max-width: 780px){
+	header{
+		height: 80vh;
+	}
+	.little-description{
+		width: 100%;
+		margin: 0;
+	}
+	.hero-text-box h1{
+		/*width: 40rem;*/
+		/*transform: translateX(93%);*/
+		font-size: 3.6rem;
+		margin: 0;
+	}
+	.hero-text-box{
+		margin-top: 10rem;
+	}
+	h2{
+		font-size: 3rem;
+	}
+	h3{
+		font-size: 2rem;
+	}
+}
+@media only screen and (max-width: 480px){
+	header{
+		height: 85vh;
+	}
+	.span_1_of_4{
+		width: 100%;
+	}
+	.hero-text-box h1{
+		/*width: 30rem;*/
+		/*transform: translateX(140%);*/
+		font-size: 3rem;
+		margin: 0;
+	}
+	.hero-text-box .btn-hero{
+		padding: 1rem 3rem;
+		font-size: 1.3rem;
+	}
+	h2{
+		font-size: 2.5rem;
+	}
+	h3{
+		font-size: 2rem;
+	}
+	.portfolio-filter button{
+		margin: .5rem .5rem;
+	}
+	.testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+	 margin-top: 4rem;
+    }
+}
+@media only screen and (max-width: 320px){
+	header{
+		height: 70vh;
+	}
+	.hero-text-box h1{
+		/*width: 20rem;*/
+		/*transform: translateX(235%);*/
+		font-size: 2rem;
+		margin: 0;
+	}
+}
